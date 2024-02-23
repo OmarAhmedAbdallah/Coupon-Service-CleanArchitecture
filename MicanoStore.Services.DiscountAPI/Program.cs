@@ -1,3 +1,7 @@
+using MicanoStore.Services.Discount.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 namespace MicanoStore.Services.CouponAPI;
 
 public class Program
@@ -5,9 +9,17 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        var Configuration = builder.Configuration;
 
         // Add services to the container.
         builder.Services.AddAuthorization();
+
+        //add connection with database
+        string? StringConnection = Configuration["ConnectionStrings:DatabaseConnection"];
+
+        builder.Services.AddDbContext<DiscountDbContext>(optionsBuilder => {
+            optionsBuilder.UseSqlServer(StringConnection);
+        });
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
