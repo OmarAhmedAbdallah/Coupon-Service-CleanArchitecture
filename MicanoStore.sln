@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{84F0A4DD-D1C5-4D1E-AB74-6982F7EDA828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.CouponAPI", "MicanoStore.Services.CouponAPI\MicanoStore.Services.CouponAPI.csproj", "{2768FF57-3D86-45D7-BAE6-FE56FF7AC036}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.CouponAPI", "Services\MicanoStore.Services.CouponAPI\MicanoStore.Services.CouponAPI.csproj", "{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +16,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2768FF57-3D86-45D7-BAE6-FE56FF7AC036} = {84F0A4DD-D1C5-4D1E-AB74-6982F7EDA828}
+		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C} = {84F0A4DD-D1C5-4D1E-AB74-6982F7EDA828}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2768FF57-3D86-45D7-BAE6-FE56FF7AC036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2768FF57-3D86-45D7-BAE6-FE56FF7AC036}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2768FF57-3D86-45D7-BAE6-FE56FF7AC036}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2768FF57-3D86-45D7-BAE6-FE56FF7AC036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
