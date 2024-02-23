@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{84F0A4DD-D1C5-4D1E-AB74-6982F7EDA828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.DiscountAPI", "Services\MicanoStore.Services.DiscountAPI\MicanoStore.Services.DiscountAPI.csproj", "{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.DiscountAPI", "Services\Discount\MicanoStore.Services.DiscountAPI\MicanoStore.Services.DiscountAPI.csproj", "{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{AE6D5231-5A12-452B-996C-0DD7F299F0B6}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{8F
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Domain", "Services\MicanoStore.Services.Discount.Domain\MicanoStore.Services.Discount.Domain.csproj", "{F0D6C000-B854-4D42-8A59-06305A45DA54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Domain", "Services\Discount\MicanoStore.Services.Discount.Domain\MicanoStore.Services.Discount.Domain.csproj", "{F0D6C000-B854-4D42-8A59-06305A45DA54}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{068C3AB5-85FE-4873-98F4-C85A5F72C46B}"
 	ProjectSection(SolutionItems) = preProject
@@ -31,9 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Presentation", "4-Presentation", "{38B28348-7B42-4FC8-BA8F-1571C3CB844B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Infrastructure", "Services\MicanoStore.Services.Discount.Infrastructure\MicanoStore.Services.Discount.Infrastructure.csproj", "{E1E220E6-3887-4895-A607-25635D43B693}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Infrastructure", "Services\Discount\MicanoStore.Services.Discount.Infrastructure\MicanoStore.Services.Discount.Infrastructure.csproj", "{E1E220E6-3887-4895-A607-25635D43B693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Application", "Services\MicanoStore.Services.Discount.Application\MicanoStore.Services.Discount.Application.csproj", "{7B613035-D155-405C-AF68-57CB01B5B3A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicanoStore.Services.Discount.Application", "Services\Discount\MicanoStore.Services.Discount.Application\MicanoStore.Services.Discount.Application.csproj", "{7B613035-D155-405C-AF68-57CB01B5B3A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{829B20B6-D004-405D-A491-D05862A24879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,7 @@ Global
 		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C} = {38B28348-7B42-4FC8-BA8F-1571C3CB844B}
 		{E1E220E6-3887-4895-A607-25635D43B693} = {0652C939-1505-4C1F-824D-9FA09F6C0755}
 		{7B613035-D155-405C-AF68-57CB01B5B3A9} = {068C3AB5-85FE-4873-98F4-C85A5F72C46B}
+		{829B20B6-D004-405D-A491-D05862A24879} = {8FC44816-D19A-4BE0-A60B-098FE00E5D7A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6E5FE540-E22D-4B1B-B0D1-4C6288D23A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
