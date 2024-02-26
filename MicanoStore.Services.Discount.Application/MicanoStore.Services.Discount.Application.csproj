@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MicanoStore.Services.Discount.Domain\MicanoStore.Services.Discount.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

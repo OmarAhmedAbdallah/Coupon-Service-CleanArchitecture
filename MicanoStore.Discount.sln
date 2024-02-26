@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{8F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicanoStore.Services.Discount.Domain", "MicanoStore.Services.Discount.Domain\MicanoStore.Services.Discount.Domain.csproj", "{F0D6C000-B854-4D42-8A59-06305A45DA54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Application", "3-Application", "{068C3AB5-85FE-4873-98F4-C85A5F72C46B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{068C3AB5-85FE-4873-98F4-C85A5F72C46B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infrastructure", "{0652C939-1505-4C1F-824D-9FA09F6C0755}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{0652C939-1505-4C1F-824D-9FA09F6C0755}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Presentation", "4-Presentation", "{38B28348-7B42-4FC8-BA8F-1571C3CB844B}"
 EndProject

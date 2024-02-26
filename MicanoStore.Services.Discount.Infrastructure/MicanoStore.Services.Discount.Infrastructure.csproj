@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MicanoStore.Services.Discount.Application\MicanoStore.Services.Discount.Application.csproj" />
       <ProjectReference Include="..\MicanoStore.Services.Discount.Domain\MicanoStore.Services.Discount.Domain.csproj" />
     </ItemGroup>
 
