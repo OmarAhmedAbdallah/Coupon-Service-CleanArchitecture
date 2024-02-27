@@ -1,3 +1,5 @@
+using MicanoStore.Services.Discount.Application.Constants;
+using MicanoStore.Services.Discount.Application.Models;
 using MicanoStore.Services.Discount.Infrastructure;
 using MicanoStore.Services.Discount.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +22,7 @@ public class Program
 
 
         //add connection with database
-        string? StringConnection = Configuration["ConnectionStrings:DatabaseConnection"];
+        string? StringConnection = Configuration[$"{Constant.ConnectionStrings}:{Constant.DatabaseConnection}"];
 
         builder.Services.AddDbContext<DiscountDbContext>(optionsBuilder => {
             optionsBuilder.UseSqlServer(StringConnection);
@@ -29,6 +31,7 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.Configure<Config>(Configuration.GetSection(Constant.ConnectionStrings));
 
         var app = builder.Build();
 

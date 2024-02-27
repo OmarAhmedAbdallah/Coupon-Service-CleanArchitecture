@@ -2,9 +2,11 @@
 using MicanoStore.Services.Discount.Application.CouponFactories;
 using MicanoStore.Services.Discount.Application.CouponVMs;
 using MicanoStore.Services.Discount.Application.ICouponServices;
+using MicanoStore.Services.Discount.Application.Models;
 using MicanoStore.Services.Discount.Domain.Entities;
 using MicanoStore.Services.Discount.Domain.IRepository;
 using MicanoStore.Services.Discount.Domain.IUOW;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +18,6 @@ namespace MicanoStore.Services.Discount.Application.CouponServices
     public class CouponService : ICouponService
     {
         private readonly IUnitOfWork _unitOfWork;
-
         public CouponService(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -24,7 +25,7 @@ namespace MicanoStore.Services.Discount.Application.CouponServices
 
         public async Task<IEnumerable<CouponVM>> GetAllCoupons()
         {
-            var coupons = await _unitOfWork.CouponRepository.GetAllAsync();
+                var coupons = await _unitOfWork.CouponRepository.GetAllAsync();
             return coupons.Select(CouponFactory.ToVM);
         }
 
