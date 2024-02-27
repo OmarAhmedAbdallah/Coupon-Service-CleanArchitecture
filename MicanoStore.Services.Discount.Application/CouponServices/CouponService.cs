@@ -61,7 +61,7 @@ namespace MicanoStore.Services.Discount.Application.CouponServices
             existingCoupon.CouponCode = updatedCoupon.CouponCode;
             existingCoupon.DiscountAmount = updatedCoupon.DiscountAmount;
             existingCoupon.MinAmount = updatedCoupon.MinAmount;
-            await _unitOfWork.CouponRepository.UpdateAsync(existingCoupon);
+            _unitOfWork.CouponRepository.Update(existingCoupon);
             await _unitOfWork.SaveChangesAsync();
         }
 

@@ -19,7 +19,7 @@ namespace MicanoStore.Services.Discount.Infrastructure.Repository
             _context = context;
         }
 
-        public async Task<Coupon> GetByIdAsync(Guid id)
+        public async Task<Coupon?> GetByIdAsync(Guid id)
         {
             return await _context.Coupons.FindAsync(id);
         }
@@ -39,10 +39,10 @@ namespace MicanoStore.Services.Discount.Infrastructure.Repository
 
         public async Task AddAsync(Coupon entity)
         {
-            _context.Coupons.Add(entity);
+            await _context.Coupons.AddAsync(entity);
         }
 
-        public async Task UpdateAsync(Coupon entity)
+        public void Update(Coupon entity)
         {
             _context.Coupons.Update(entity);
         }
