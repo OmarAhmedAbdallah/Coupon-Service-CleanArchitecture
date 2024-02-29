@@ -1,6 +1,5 @@
 ﻿
 using MicanoStore.Services.Discount.Application.CouponDTOs;
-using MicanoStore.Services.Discount.Application.CouponServices;
 using MicanoStore.Services.Discount.Application.CouponVMs;
 using MicanoStore.Services.Discount.Application.ICouponServices;
 using Microsoft.AspNetCore.Mvc;

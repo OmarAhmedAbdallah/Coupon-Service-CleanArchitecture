@@ -2,16 +2,7 @@
 using MicanoStore.Services.Discount.Application.CouponFactories;
 using MicanoStore.Services.Discount.Application.CouponVMs;
 using MicanoStore.Services.Discount.Application.ICouponServices;
-using MicanoStore.Services.Discount.Application.Models;
-using MicanoStore.Services.Discount.Domain.Entities;
-using MicanoStore.Services.Discount.Domain.IRepository;
 using MicanoStore.Services.Discount.Domain.IUOW;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MicanoStore.Services.Discount.Application.CouponServices 
 {

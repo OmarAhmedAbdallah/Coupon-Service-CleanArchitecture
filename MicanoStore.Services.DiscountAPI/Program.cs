@@ -3,7 +3,6 @@ using MicanoStore.Services.Discount.Application.Models;
 using MicanoStore.Services.Discount.Infrastructure;
 using MicanoStore.Services.Discount.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace MicanoStore.Services.CouponAPI;
 

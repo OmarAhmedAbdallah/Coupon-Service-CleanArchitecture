@@ -1,11 +1,6 @@
 ﻿using MicanoStore.Services.Discount.Domain.Entities;
 using MicanoStore.Services.Discount.Domain.IRepository;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MicanoStore.Services.Discount.Infrastructure.Repository
 {

@@ -1,11 +1,5 @@
 ﻿using MicanoStore.Services.Discount.Application.CouponDTOs;
 using MicanoStore.Services.Discount.Application.CouponVMs;
-using MicanoStore.Services.Discount.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MicanoStore.Services.Discount.Application.ICouponServices
 {

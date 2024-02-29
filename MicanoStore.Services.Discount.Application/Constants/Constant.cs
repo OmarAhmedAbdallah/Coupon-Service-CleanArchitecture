@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MicanoStore.Services.Discount.Application.Constants
+﻿namespace MicanoStore.Services.Discount.Application.Constants
 {
     public static class Constant
     {
